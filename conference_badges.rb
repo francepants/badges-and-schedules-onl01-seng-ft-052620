@@ -19,7 +19,7 @@ def assign_rooms(attendees)
 end
 
 
-# question 4 - #printer should puts the list of badges and room_assignments
+# question 4 - #printer should puts the list of badges AND room_assignments
 def printer(attendees)
   #list of badges here
   batch_badge_creator(attendees).each do |badge|
